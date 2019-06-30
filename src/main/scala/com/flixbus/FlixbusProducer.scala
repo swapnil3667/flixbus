@@ -37,7 +37,6 @@ object FlixbusProducer {
 
     val json = Source.fromFile(args(0))
     val parsedJson = mapper.readValue[flixArray](json.reader())
-    println(parsedJson.payload)
     parsedJson.payload.foreach(x => {
       val jsonString = Json(DefaultFormats).write(x)
       val jsonNode: JsonNode = mapper.readTree(jsonString)
@@ -45,23 +44,6 @@ object FlixbusProducer {
       val producerRecord = new ProducerRecord[String, JsonNode](inputTopic, jsonNode)
       kafkaProducer.send(producerRecord)
     })
-
-//    val values = parsedJson.get("payload").asInstanceOf[List[flix]]
-//    for(value <- values){
-//      println(value)
-//    }
-   // val jsonNodes = mapper.readValue(new File("/Users/swapnil.kumar/workspace/src/fintech/flixbus/src/main/resources/input.json"),flixArray.getClass).asInstanceOf[flixArray]
-
-   // println(jsonNodes)
-//    for(node <- jsonNodes) {
-//      println(node)
-//      val producerRecord = new ProducerRecord[String, JsonNode](inputTopic, node)
-//      kafkaProducer.send(producerRecord)
-//
-//    }
- //   val producerRecord = new ProducerRecord[String, JsonNode](inputTopic, jsonNode)
-//    kafkaProducer.send(producerRecord)
-
     kafkaProducer.flush()
     kafkaProducer.close()
   }

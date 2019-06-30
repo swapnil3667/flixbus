@@ -1,26 +1,26 @@
 [0m[[0m[0mdebug[0m] [0m[0mIncluding: connect-json-0.9.0.0.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0mIncluding: spark-tags_2.12-2.4.0.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0mIncluding: jackson-core-2.9.9.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0mIncluding: slf4j-api-1.7.25.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0mIncluding: lz4-java-1.4.1.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0mIncluding: json4s-core_2.12-3.5.1.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding: jackson-module-scala_2.12-2.9.9.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding: jackson-core-2.9.9.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding: connect-api-0.9.0.0.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0mIncluding: kafka-clients-2.0.0.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0mIncluding: unused-1.0.0.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0mIncluding: connect-api-0.9.0.0.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding: lz4-java-1.4.1.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding: jackson-annotations-2.9.9.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding: snappy-java-1.1.7.1.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0mIncluding: scala-library-2.12.8.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0mIncluding: jackson-module-paranamer-2.9.9.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0mIncluding: jackson-module-scala_2.12-2.9.9.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0mIncluding: paranamer-2.8.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0mIncluding: snappy-java-1.1.7.1.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding: json4s-core_2.12-3.5.1.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0mIncluding: json4s-native_2.12-3.5.1.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0mIncluding: jackson-annotations-2.9.9.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0mIncluding: spark-sql-kafka-0-10_2.12-2.4.0.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0mIncluding: jackson-databind-2.9.9.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0mIncluding: json4s-ast_2.12-3.5.1.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0mIncluding: snakeyaml-1.11.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0mIncluding: json4s-jackson_2.12-3.5.1.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0mIncluding: scala-xml_2.12-1.0.6.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding: spark-sql-kafka-0-10_2.12-2.4.0.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0mIncluding: json4s-scalap_2.12-3.5.1.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding: jackson-databind-2.9.9.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding: json4s-jackson_2.12-3.5.1.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding: snakeyaml-1.11.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0mCalculate mappings...[0m
 [0m[[0m[0mdebug[0m] [0m[0mChecking every *.class/*.jar file's SHA-1.[0m
 [0m[[0m[0mdebug[0m] [0m[0mMerging files...[0m
@@ -57,7 +57,7 @@
 [0m[[0m[0minfo[0m] [0m[0mStrategy 'filterDistinctLines' was applied to a file (Run the task at debug level to see details)[0m
 [0m[[0m[0minfo[0m] [0m[0mStrategy 'first' was applied to a file (Run the task at debug level to see details)[0m
 [0m[[0m[0minfo[0m] [0m[0mStrategy 'rename' was applied to 5 files (Run the task at debug level to see details)[0m
-[0m[[0m[0mdebug[0m] [0m[0mSHA-1: d8c3b58727b8ce6ed47f87107f0cdbc4bac67537[0m
+[0m[[0m[0mdebug[0m] [0m[0mSHA-1: 9caadcef1c5156a4e5d16a1f7db358218b57566e[0m
 [0m[[0m[0minfo[0m] [0m[0mPackaging /Users/swapnil.kumar/workspace/src/fintech/flixbus/target/scala-2.12/flixbus-assembly-0.1.jar ...[0m
 [0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	LICENSE_kafka-clients-2.0.0[0m
@@ -2168,8 +2168,6 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/swapnil.kumar/workspace/src/fintech/flixbus/target/streams/$global/assemblyOption/$global/streams/assembly/26229bde65d4ead20f3deaa849227f3666e811c7_619eba74c19ccf1da8ebec97a2d7f8ba05773dd6_da39a3ee5e6b4b0d3255bfef95601890afd80709/com/thoughtworks/paranamer/PositionalParanamer.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	flixbus.yaml[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/swapnil.kumar/workspace/src/fintech/flixbus/target/streams/$global/assemblyOption/$global/streams/assembly/99e8d7cb03960291b932461cae518a08c8f4ab0e_dir/flixbus.yaml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	input.json[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /Users/swapnil.kumar/workspace/src/fintech/flixbus/target/streams/$global/assemblyOption/$global/streams/assembly/99e8d7cb03960291b932461cae518a08c8f4ab0e_dir/input.json[0m
 [0m[[0m[0mdebug[0m] [0m[0m	kafka/kafka-version.properties[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/swapnil.kumar/workspace/src/fintech/flixbus/target/streams/$global/assemblyOption/$global/streams/assembly/55108ac480491fca8fc8aa5acb4bb0a719b86034_48bcf5ebb6effdaffbc2f725aae954f764d25341_da39a3ee5e6b4b0d3255bfef95601890afd80709/kafka/kafka-version.properties[0m
 [0m[[0m[0mdebug[0m] [0m[0m	library.properties[0m

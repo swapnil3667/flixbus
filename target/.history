@@ -27,3 +27,7 @@ compile
 assembly
 exity
 exit
+clean
+compile
+assembly
+exit

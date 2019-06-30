@@ -7,7 +7,7 @@
 		revision="0.1"
 		conf="runtime-internal"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
-		date="20190630105842"/>
+		date="20190630115139"/>
 	<dependencies>
 		<module organisation="org.yaml" name="snakeyaml">
 			<revision name="1.11" status="release" pubdate="20120930171818" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.snakeyaml.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="22">
