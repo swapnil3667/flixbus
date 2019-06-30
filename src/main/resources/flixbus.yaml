@@ -1,0 +1,16 @@
+kafkaConsumerConfig:
+  bootstrap.servers: 192.168.1.227:9092
+  schema.registry.url: http://127.0.0.1:8081
+  startingOffsets: earliest
+  key.deserializer: "org.apache.kafka.common.serialization.StringDeserializer"
+  value.deserializer:  "org.apache.kafka.connect.json.JsonDeserializer"
+  group.id: "flix"
+  auto.commit.enable: false
+  auto.offset.reset: earliest
+
+
+kafkaProducerConfig:
+  bootstrap.servers: 127.0.0.1:9092
+  schema.registry.url: http://127.0.0.1:8081
+  key.serializer: "org.apache.kafka.common.serialization.StringSerializer"
+  value.serializer: "org.apache.kafka.connect.json.JsonSerializer"
